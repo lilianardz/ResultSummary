@@ -219,11 +219,14 @@ div p > span {
 
 /*****Desktop media query*****/
 @media only screen and (min-width: 480px) {
+    body{
+        overflow: hidden;
+    }
     .contenedor {
         width: 800px!important;
         height: 600px;
-        margin-left: 200px;
-        margin-top: 20px;
+        margin-left: 300px;
+        margin-top: 40px;
         border-radius: 15px;
 
     }
