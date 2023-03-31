@@ -4,111 +4,108 @@ html{
 *,*:after,*:after{
     box-sizing: inherit;
 }
+body {
+    overflow-x: hidden;
+}
+/*Mobile version*/
 .contenedor{
-    width: 800px;!important;
-    height: 600px;
-    margin-left: 200px;
-    margin-top: 20px;
-    border-radius: 15px;
-
+    width: 360px;
+    margin: 0 auto;
+    /*margin-top: 20px;*/
 }
 .card-result{
-    float: left;
     width: 350px;
     height: 500px;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6743ff+0,4d38f5+48,312cea+100 */
-    background: rgb(103,67,255); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(103,67,255,1) 0%, rgba(77,56,245,1) 48%, rgba(49,44,234,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(103,67,255,1) 0%,rgba(77,56,245,1) 48%,rgba(49,44,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(103,67,255,1) 0%,rgba(77,56,245,1) 48%,rgba(49,44,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6743ff', endColorstr='#312cea',GradientType=0 ); /* IE6-9 */
-
-    border-radius: 28px;
+    background: rgb(103, 67, 255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(103, 67, 255, 1) 0%, rgba(77, 56, 245, 1) 48%, rgba(49, 44, 234, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(103, 67, 255, 1) 0%, rgba(77, 56, 245, 1) 48%, rgba(49, 44, 234, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(103, 67, 255, 1) 0%, rgba(77, 56, 245, 1) 48%, rgba(49, 44, 234, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6743ff', endColorstr='#312cea', GradientType=0); /* IE6-9 */
     z-index: 1;
-    position: absolute;
+    border-radius: 28px;
     padding-top: 20px;
+    position: relative;
 }
-.card-summary{
-    clear: both;
-    width: 370px;
-    height: 500px;
-    right: -350px;
+.card-summary {
+    width: 350px;
+    height: 510px;
     box-shadow: 2px 2px 30px 1px rgba(0, 0, 0, 0.2); /*f1f4fd -> a rgba*/
     /*box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 2px rgb(255,255,255),    0.3em 0.3em 1em rgba(0,0,0,0.3);;*/
-    margin-left: -20px;
-    display: inline-block;
     /*z-index: 1;*/
-    position: relative;
-    border-top-right-radius: 28px;
-    border-bottom-right-radius: 28px;
-    padding-top: 20px;
 
+    padding-top: 28px;
+    margin-top: -24px;
+    position: absolute;
 }
-.card-summary h2{
+.card-summary h2 {
     margin-left: -180px;
     color: #363b52;
     font-weight: bolder;
 }
-h1{
+h1 {
     color: white;
     text-align: center;
     font-family: poppinsregular;
     font-size: 28px;
     letter-spacing: 0.08em;
 }
-h2{
+
+h2 {
     color: #cbc2ff;
     font-family: poppinsregular;
     text-align: center;
     font-size: 24px;
 
 }
-p.textop{
+
+p.textop {
     text-align: center;
     font-family: poppinsregular;
     color: #cbc2ff;
     padding: 0 40px;
 }
-.circle{
+
+.circle {
     text-align: center;
     width: 160px;
     height: 160px;
     border-radius: 50%;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c22cb+0,442fe2+49,4734f0+100 */
-    background: rgb(76,34,203); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(76,34,203,1) 0%, rgba(68,47,226,1) 49%, rgba(71,52,240,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(76,34,203,1) 0%,rgba(68,47,226,1) 49%,rgba(71,52,240,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(76,34,203,1) 0%,rgba(68,47,226,1) 49%,rgba(71,52,240,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c22cb', endColorstr='#4734f0',GradientType=0 ); /* IE6-9 */
+    background: rgb(76, 34, 203); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(76, 34, 203, 1) 0%, rgba(68, 47, 226, 1) 49%, rgba(71, 52, 240, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(76, 34, 203, 1) 0%, rgba(68, 47, 226, 1) 49%, rgba(71, 52, 240, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(76, 34, 203, 1) 0%, rgba(68, 47, 226, 1) 49%, rgba(71, 52, 240, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c22cb', endColorstr='#4734f0', GradientType=0); /* IE6-9 */
 
     position: relative;
     right: -100px;
 }
-.texto-circulo{
+
+.texto-circulo {
     position: absolute;
     font-family: poppinsregular;
 }
 
-h1.texto-circulo{
+h1.texto-circulo {
     left: 50px;
     bottom: 20px;
     color: #ffffff;
     font-size: 50px;
     font-weight: bold;
 }
-p.texto-circulo{
+
+p.texto-circulo {
     left: 56px;
     top: 80px;
     bottom: 10px;
-    color: #cbc2ff;
-;
+    color: #cbc2ff;;
 }
-
 /*contenido tarjeta summary*/
 /*reaction*/
 div.reaction {
-    margin-left: 50px;
-    width: 280px;
+    margin-left: 40px;
+    width: 286px;
     height: 50px;
     background-color: #fff6f5;;
     border-radius: 10px;
@@ -118,19 +115,16 @@ div.reaction {
     color: #d25c58;
     margin-top: 24px;
 }
-div.reaction svg{
+div.reaction svg {
     color: #d25c58;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
-
 }
-
-
 /*memory*/
 div.memory {
-    margin-left: 50px;
-    width: 280px;
+    margin-left: 40px;
+    width: 286px;
     height: 50px;
     background-color: #fffbf2;
     border-radius: 10px;
@@ -140,7 +134,8 @@ div.memory {
     color: #f0cd88;
     margin-top: 24px;
 }
-div.memory svg{
+
+div.memory svg {
     color: #d8bb67;
     margin-left: 10px;
     margin-right: 10px;
@@ -150,8 +145,8 @@ div.memory svg{
 
 /*verbal*/
 div.verbal {
-    margin-left: 50px;
-    width: 280px;
+    margin-left: 40px;
+    width: 286px;
     height: 50px;
     background-color: #f2fbfa;
     border-radius: 10px;
@@ -161,7 +156,8 @@ div.verbal {
     color: #54b79d;
     margin-top: 24px;
 }
-div.verbal svg{
+
+div.verbal svg {
     color: #54b79d;
     margin-left: 14px;
     margin-right: 10px;
@@ -170,8 +166,8 @@ div.verbal svg{
 
 /*visual*/
 div.visual {
-    margin-left: 50px;
-    width: 280px;
+    margin-left: 40px;
+    width: 286px;
     height: 50px;
     background-color: #f3f3fd;
     border-radius: 10px;
@@ -181,44 +177,281 @@ div.visual {
     color: #454b9f;
     margin-top: 24px;
 }
-div.visual svg{
+
+div.visual svg {
     color: #454b9f;
     margin-left: 14px;
     margin-right: 10px;
     margin-top: 15px;
 }
-
 /* porcentajes derecha */
-div p span{
+div p span {
     color: gray;
 }
-div p > span{
+
+div p > span {
     color: #363b52;
     margin-left: 120px;
 }
-.span-dir{
+
+.span-dir {
     margin-left: 104px;
 }
 
-.button{
+.button {
     background-color: #363b52;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    padding: 16px 90px;
+    padding: 14px 90px;
     text-decoration: none;
     color: white;
     font-family: poppinsregular;
     margin-left: 55px;
+    margin-top: 40px;
     position: inherit;
-    top: 50px;
     transition: all .4s ease;
 
 }
-.button:hover{
-    background-color: white;
-    color: #363b52;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);}
+
+
+
+
+/*****Desktop media query*****/
+@media only screen and (min-width: 480px) {
+    .contenedor {
+        width: 800px!important;
+        height: 600px;
+        margin-left: 200px;
+        margin-top: 20px;
+        border-radius: 15px;
+
+    }
+
+    .card-result {
+        float: left;
+        width: 350px;
+        height: 500px;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6743ff+0,4d38f5+48,312cea+100 */
+        background: rgb(103, 67, 255); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(103, 67, 255, 1) 0%, rgba(77, 56, 245, 1) 48%, rgba(49, 44, 234, 1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(103, 67, 255, 1) 0%, rgba(77, 56, 245, 1) 48%, rgba(49, 44, 234, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(103, 67, 255, 1) 0%, rgba(77, 56, 245, 1) 48%, rgba(49, 44, 234, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6743ff', endColorstr='#312cea', GradientType=0); /* IE6-9 */
+
+        border-radius: 28px;
+        z-index: 1;
+        position: absolute;
+        padding-top: 20px;
+    }
+
+    .card-summary {
+        clear: both;
+        width: 370px;
+        height: 500px;
+        right: -350px;
+        box-shadow: 2px 2px 30px 1px rgba(0, 0, 0, 0.2); /*f1f4fd -> a rgba*/
+        /*box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 2px rgb(255,255,255),    0.3em 0.3em 1em rgba(0,0,0,0.3);;*/
+        margin-left: -20px;
+        display: inline-block;
+        /*z-index: 1;*/
+        position: relative;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        padding-top: 20px;
+        margin-top: 1px;
+
+    }
+
+    .card-summary h2 {
+        margin-left: -180px;
+        color: #363b52;
+        font-weight: bolder;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: poppinsregular;
+        font-size: 28px;
+        letter-spacing: 0.08em;
+    }
+
+    h2 {
+        color: #cbc2ff;
+        font-family: poppinsregular;
+        text-align: center;
+        font-size: 24px;
+
+    }
+
+    p.textop {
+        text-align: center;
+        font-family: poppinsregular;
+        color: #cbc2ff;
+        padding: 0 40px;
+    }
+
+    .circle {
+        text-align: center;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c22cb+0,442fe2+49,4734f0+100 */
+        background: rgb(76, 34, 203); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(76, 34, 203, 1) 0%, rgba(68, 47, 226, 1) 49%, rgba(71, 52, 240, 1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(76, 34, 203, 1) 0%, rgba(68, 47, 226, 1) 49%, rgba(71, 52, 240, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(76, 34, 203, 1) 0%, rgba(68, 47, 226, 1) 49%, rgba(71, 52, 240, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c22cb', endColorstr='#4734f0', GradientType=0); /* IE6-9 */
+
+        position: relative;
+        right: -100px;
+    }
+
+    .texto-circulo {
+        position: absolute;
+        font-family: poppinsregular;
+    }
+
+    h1.texto-circulo {
+        left: 50px;
+        bottom: 20px;
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    p.texto-circulo {
+        left: 56px;
+        top: 80px;
+        bottom: 10px;
+        color: #cbc2ff;;
+    }
+
+    /*contenido tarjeta summary*/
+    /*reaction*/
+    div.reaction {
+        margin-left: 50px;
+        width: 280px;
+        height: 50px;
+        background-color: #fff6f5;;
+        border-radius: 10px;
+        font-family: poppinsregular;
+        font-size: 14.5px;
+        font-weight: bold;
+        color: #d25c58;
+        margin-top: 24px;
+    }
+
+    div.reaction svg {
+        color: #d25c58;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+
+    }
+
+
+    /*memory*/
+    div.memory {
+        margin-left: 50px;
+        width: 280px;
+        height: 50px;
+        background-color: #fffbf2;
+        border-radius: 10px;
+        font-family: poppinsregular;
+        font-size: 15px;
+        font-weight: bold;
+        color: #f0cd88;
+        margin-top: 24px;
+    }
+
+    div.memory svg {
+        color: #d8bb67;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+
+    /*verbal*/
+    div.verbal {
+        margin-left: 50px;
+        width: 280px;
+        height: 50px;
+        background-color: #f2fbfa;
+        border-radius: 10px;
+        font-family: poppinsregular;
+        font-size: 15px;
+        font-weight: bold;
+        color: #54b79d;
+        margin-top: 24px;
+    }
+
+    div.verbal svg {
+        color: #54b79d;
+        margin-left: 14px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    /*visual*/
+    div.visual {
+        margin-left: 50px;
+        width: 280px;
+        height: 50px;
+        background-color: #f3f3fd;
+        border-radius: 10px;
+        font-family: poppinsregular;
+        font-size: 15px;
+        font-weight: bold;
+        color: #454b9f;
+        margin-top: 24px;
+    }
+
+    div.visual svg {
+        color: #454b9f;
+        margin-left: 14px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    /* porcentajes derecha */
+    div p span {
+        color: gray;
+    }
+
+    div p > span {
+        color: #363b52;
+        margin-left: 120px;
+    }
+
+    .span-dir {
+        margin-left: 104px;
+    }
+
+    .button {
+        background-color: #363b52;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 16px 90px;
+        text-decoration: none;
+        color: white;
+        font-family: poppinsregular;
+        margin-left: 55px;
+        position: inherit;
+        top: 50px;
+        transition: all .4s ease;
+
+    }
+
+    .button:hover {
+        background-color: white;
+        color: #363b52;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    }
+}
 .clearfix::before,
 .clearfix::after {
     content: " ";
