@@ -79,7 +79,7 @@ p.textop {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c22cb', endColorstr='#4734f0', GradientType=0); /* IE6-9 */
 
     position: relative;
-    right: -100px;
+    right: -95px;
 }
 
 .texto-circulo {
@@ -226,7 +226,7 @@ div p > span {
         width: 800px!important;
         height: 600px;
         margin-left: 300px;
-        margin-top: 40px;
+        margin-top: 50px;
         border-radius: 15px;
 
     }
